@@ -28,7 +28,7 @@ There is a need for an **IoT-based vitals recording and tracking system** that i
 
 ## Tech Stack
 - **Frontend:** [Next.js](https://nextjs.org/)
-- **Backend:** [Flask (Python)](https://flask.palletsprojects.com/)
+- **Backend:** [django (Python)].
 - **Database:** [MongoDB](https://www.mongodb.com/)
 - **Data Visualization:** [Chart.js](https://www.chartjs.org/)
 
@@ -36,7 +36,7 @@ There is a need for an **IoT-based vitals recording and tracking system** that i
 ### Prerequisites
 Ensure you have the following installed:
 - Node.js & npm
-- Python & Flask
+- Python & Django
 - MongoDB
 
 ### Installation Steps
