@@ -74,3 +74,13 @@ This project is licensed under the **MIT License**.
 For any inquiries, reach out to:
 - **Email:** sakshijaiswal1683@gmail.com
 
+```mermaid
+graph TD;
+    IoT-Devices -->|Vitals Data| Backend(Flask API)
+    Backend -->|Stores Data| Database(MongoDB)
+    Backend -->|Sends Data| Frontend(Next.js)
+    Frontend -->|Doctor-Patient Interaction| Dashboard
+    Dashboard -->|Alerts & Reports| Doctor
+    Dashboard -->|Health Insights| Patient
+
+
